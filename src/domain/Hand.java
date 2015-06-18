@@ -1,21 +1,19 @@
 package domain;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Hand {
 
 	//List of 5 Card objects
 	ArrayList<Card> hand;
 
-	public Hand(){
-		
+	public Hand(){	
 		this.hand  = new ArrayList<Card>();
 	}
 	
-	public Hand(ArrayList<Card> hand){
-		
+	public Hand(List<Card> hand){	
 		hand = this.hand;
-		
 	}
 
 	public ArrayList<Card> getHand() {
