@@ -1,8 +1,10 @@
 package game;
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import game.GameManager;
+import domain.Hand;
 
 
 public class GameManagerTest {
@@ -15,10 +17,10 @@ public class GameManagerTest {
 		String[] white = {"2C", "3H", "4S", "8C", "AH"};
 		
 		gameManager.createHands(black, white);
-		Hands expectedBlack;
-		Hands expectedWhite;
-		Hands actualBlack;
-		Hands actualWhite;
+		domain.Hand expectedBlack;
+		domain.Hand expectedWhite;
+		domain.Hand actualBlack;
+		domain.Hand actualWhite;
 		
 		assertSame("failure expected hands are not built correctly", expectedBlack, actualBlack);
 		assertSame("failure expected hands are not built correctly", expectedWhite, actualWhite);

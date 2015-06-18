@@ -5,6 +5,15 @@ public class Card {
 	String number;
     String suit;
     
+    public Card(){}
+    
+    public Card(String n, String s){
+    	
+    	this.number = n;
+    	this.suit = s;
+	
+    }
+    
     public String getNumber() {
 		return number;
 	}
