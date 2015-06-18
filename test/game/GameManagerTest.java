@@ -38,8 +38,8 @@ public class GameManagerTest {
 		
 		Hand expectedBlack = new Hand(blackCards);
 		Hand expectedWhite = new Hand(whiteCards);
-		Hand actualBlack = new Hand(blackCards);
-		Hand actualWhite = new Hand(blackCards);
+		Hand actualBlack = gameManager.getBlackHand();
+		Hand actualWhite = gameManager.getWhiteHand();
 		
 		gameManager.createHands(black, white);
 		

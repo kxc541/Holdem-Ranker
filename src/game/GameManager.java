@@ -39,5 +39,11 @@ public class GameManager {
 		this.white = new Hand(whiteHand);
 	}
 
-	
+	public Hand getBlackHand() {
+		return this.black;
+	}
+
+	public Hand getWhiteHand() {
+		return this.white;
+	}
 }
