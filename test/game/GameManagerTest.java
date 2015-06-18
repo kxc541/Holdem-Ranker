@@ -4,7 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class DeckTest {
+
+public class GameManagerTest {
 
 	@Test
 	public void test() {
